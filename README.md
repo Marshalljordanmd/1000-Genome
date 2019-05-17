@@ -7,8 +7,9 @@ positions on the genome. Then the file is converted to a Pandas DataFrame. Then 
 rows, each of which is a variant position in the database compared to the reference genome. For each row, the information line, column 7, is chosen because it contains the AFs of interest.First, the row position is checked to be sure it is in the correct gene position, that is between the start and end positions.  This slice of information is converted to a dictionary after removing the "_" character and replacing with "=". From the dictionary the AF value is chosen, any stray commas eliminated, converted from string to float and than placed into the proper bin for the frequency.Finally, a histogram is made from the results.
 
 HERE IS THE PRIMARY PROGRAM "snp_group.py"
-#on 12.7.18 iI am making a program to count the number of SNPs in each or three groups for a graph.
-# the groups are AF < 0.005, 0.005>= AF < .05, and 0.05 >= AF 
+
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np

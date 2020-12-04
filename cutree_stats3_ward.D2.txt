@@ -1,0 +1,4 @@
+cluster	species	min	mean	max	stdev	p-value	neglog
+1	458	0.626	0.871	0.994	0.074	0	Inf
+2	480	0.641	0.825	0.993	0.089	0	Inf
+3	295	0.517	0.816	0.987	0.135	0	Inf
